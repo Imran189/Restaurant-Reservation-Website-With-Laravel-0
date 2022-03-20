@@ -7,6 +7,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -69,7 +70,7 @@
                     </nav>
             </div>
 
-            <main class="m-2 p-8 w-full">
+            <main class="m-2 p-8 ">
                 {{$slot}}
                </main>
         </div>
